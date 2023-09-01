@@ -1,10 +1,10 @@
-#rata-rata umur customer jika dilihat dari marital status
+# Average age of customers when viewed from marital status
 select avg(age)  from customer c group by "Marital Status"
 
-#rata-rata umur customer jika dilihat dari gender 
+# Average age of customers when viewed from gender
 select avg(age) from customer c group by gender
 
-#nama store dengan total quantity terbanyak
+# The store name with the highest total quantity
 SELECT s.storename, SUM(t.qty) AS total_quantity
 FROM "Transaction" t
 JOIN store s ON t.storeid = s.storeid
@@ -12,7 +12,7 @@ GROUP BY s.storename
 ORDER BY total_quantity DESC
 LIMIT 1
 
-#nama produk terlaris dengan total amount terbanyak
+# Best-selling product names with the most total amount
 SELECT p."Product Name", SUM(t.qty * p.price) AS total_amount
 FROM "Transaction" t
 JOIN product p ON t.productid = p.productid
