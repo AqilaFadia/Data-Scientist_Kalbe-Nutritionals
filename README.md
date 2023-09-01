@@ -51,7 +51,7 @@ download Dbaver [here](https://dbeaver.io/)
 What is Dbaver can be read [here](https://www.rumahweb.com/journal/dbeaver-adalah/)
 
 ### Dashboard Kalbe Nutritionals
-![Dashboard](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
+![Dashboard](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/Dashboard%20Kalbe%20Nutritionals%20(1).png)
 
 Through Kalbe Nutritional's sales dashboard visualization in Tableau, it was found that the product most purchased by customers is "Thai Tea". In addition, in the data analysis, the "Lingga" store emerged as the store with the largest total amount of revenue. Over a period of a month, it was seen that the total daily revenue remained stable. However, interestingly, in the third month, there was a significant spike in sales, indicating outstanding performance in that period.
 
@@ -70,8 +70,8 @@ The graph line titled "Actual vs. Forecast" shows the comparison between the act
 * The confidence interval line indicates the range of values within which the actual value is likely to lie with a certain level of confidence. The wider the range, the higher the forecast uncertainty. From the graph, it appears that the confidence interval range is quite narrow, which means that the forecast has a fairly good level of accuracy.
 
 ## Machine Learning Clustering
-![Elbow Method](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
-This elbow can be used to determine the optimal number of data groups for clustering. This Elbow shows that the best value of k is 4, because after that the decrease in within-cluster sum of squares (WCSS) value becomes very small. The WCSS value is the sum of squares of the distance between each data and its group center. The smaller the WCSS value, the better the clustering. However, if the k value is too large, the clustering will be inefficient and uninformative. Therefore, this elbow can help you to choose a k value that suits your data.
+![Elbow Method](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/elbow.png)
+This elbow can be used to determine the optimal number of data groups for clustering. This Elbow shows that the best value of k is 4 because after that the decrease in the within-cluster sum of squares (WCSS) value becomes very small. The WCSS value is the sum of squares of the distance between each data and its group center. The smaller the WCSS value, the better the clustering. However, if the k value is too large, the clustering will be inefficient and uninformative. Therefore, this elbow can help you to choose a k value that suits your data.
 
 ![labels cluster](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
 ![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
