@@ -1,6 +1,8 @@
-* Link Code: Here
+* Link Code Clustering: [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Clustering.ipynb)
+* Link Code Time Series: [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Time_series.ipynb)
 * Link Presentation: here
 * Link Video Presentation: Here
+* Link Dataset: [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/tree/main/dataset)
 
 # Data Scientist Project at Kalbe  Nutritionals
 ## Background Story
@@ -57,6 +59,8 @@ What is Dbaver can be read [here](https://www.rumahweb.com/journal/dbeaver-adala
 ![Dashboard](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/Dashboard%20Kalbe%20Nutritionals%20(1).png)
 
 Through Kalbe Nutritional's sales dashboard visualization in Tableau, it was found that the product most purchased by customers is "Thai Tea". In addition, in the data analysis, the "Lingga" store emerged as the store with the largest total amount of revenue. Over a period of a month, it was seen that the total daily revenue remained stable. However, interestingly, in the third month, there was a significant spike in sales, indicating outstanding performance in that period.
+
+For Tableau Visit on Link [here](https://public.tableau.com/app/profile/aqila.fadia.mariana3126/viz/DashboardKalbeNutritionals/DashboardKalbeNutritionals)
 
 ## Machine Learning Time Series
 ![Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output.png)
