@@ -1,6 +1,6 @@
-Link Code Here
-Link Presentation here
-Link Video Presentation Here
+* Link Code: Here
+* Link Presentation: here
+* Link Video Presentation: Here
 
 # Data Scientist Project at Kalbe  Nutritionals
 ## Background Story
@@ -47,7 +47,7 @@ Description:
 - Qty: Number of items purchased
 - Total Amount: Price x Qty
  
-Do exploratory data analysis in Dbeaver queries such as What is the average age of customers when viewed from their marital status? What is the average age of customers when viewed from their gender? Determine the store name with the highest total quantity! Determine the name of the best-selling product with the highest total amount! Query Refrensi can be seen [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Query.sql)
+Do exploratory data analysis in Dbeaver queries such as What is the average age of customers when viewed from their marital status? What is the average age of customers when viewed from their gender? Determine the store name with the highest total quantity! Determine the name of the best-selling product with the highest total amount! Query Reference can be seen [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Query.sql)
 
 download Dbaver [here](https://dbeaver.io/)
 
@@ -80,6 +80,7 @@ The graph line titled "Actual vs. Forecast" shows the comparison between the act
 This elbow can be used to determine the optimal number of data groups for clustering. This Elbow shows that the best value of k is 4 because after that the decrease in the within-cluster sum of squares (WCSS) value becomes very small. The WCSS value is the sum of squares of the distance between each data and its group center. The smaller the WCSS value, the better the clustering. However, if the k value is too large, the clustering will be inefficient and uninformative. Therefore, this elbow can help you to choose a k value that suits your data.
 
 ![labels cluster](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output1.png)
+
 The image is a scatter plot that has four different groups of data. Each group of data is labeled with the numbers 0, 1, 2, or 3. The x and y axes in the figure are pc1 and pc2. Data that belong to the same group have the same color in the figure. Group 0 is pink and is located in the upper left corner. Group 1 is purple and is located in the lower left corner. Group 2 is black and located in the upper right corner. Group 3 is blue and is located in the lower right corner. The data in Group 0 and Group 3 are denser than the data in Group 1 and Group 2. This clustering can be used to group data based on the similarity or distance between the data. Data belonging to the same group have closer pc1 and pc2 values than data belonging to different groups. This clustering can help to find patterns or relationships between data.
 
 ![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/silhoute.png)
@@ -104,7 +105,7 @@ Recommendations: Focus on affordable products that meet the needs of customers f
 Example: Offer installment payment options or membership programs that allow customers from this cluster to purchase products more easily.
 
 
-## Refrensi
+## Reference
 * https://kalbenutritionals.com/id/tentang-kami/umum
 * https://dbeaver.io/
 * https://www.kaggle.com/code/freespirit08/time-series-for-beginners-with-arima
