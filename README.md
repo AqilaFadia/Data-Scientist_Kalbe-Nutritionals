@@ -1,2 +1,2 @@
-# Data-Scientist_Kalbe-Nutritionals
-This is Project about my intern at Kalbe Nutritionals as Data Scientist
+Data Scientist at Kalbe Nutritionals
+This is an Project about my intern at Kalbe Nutritionals as a Data Scientist
