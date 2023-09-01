@@ -56,10 +56,10 @@ What is Dbaver can be read [here](https://www.rumahweb.com/journal/dbeaver-adala
 Through Kalbe Nutritional's sales dashboard visualization in Tableau, it was found that the product most purchased by customers is "Thai Tea". In addition, in the data analysis, the "Lingga" store emerged as the store with the largest total amount of revenue. Over a period of a month, it was seen that the total daily revenue remained stable. However, interestingly, in the third month, there was a significant spike in sales, indicating outstanding performance in that period.
 
 ## Machine Learning Time Series
-![Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
+![Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output.png)
 The visualization above shows autocorrelation against various lags in the data. Autocorrelation measures the similarity of the data to itself at different times. The general pattern of autocorrelation is close to zero for most lags, but decreases at lags around 15, indicating a repeating cycle every 15 times. This confirms the stationary nature of the data, with no obvious trends or seasonal patterns.
 
-![Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
+![Partial Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/partial.png)
 The autocorrelation and partial autocorrelation visualization results show a similar pattern, with an emphasis on the first lag. This pattern indicates a recurring cycle at a lag of about 15 and a direct influence from the previous point at the first lag. The influence from other times is less significant.
 
 ![Autual vs Forecast](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
@@ -73,8 +73,8 @@ The graph line titled "Actual vs. Forecast" shows the comparison between the act
 ![Elbow Method](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/elbow.png)
 This elbow can be used to determine the optimal number of data groups for clustering. This Elbow shows that the best value of k is 4 because after that the decrease in the within-cluster sum of squares (WCSS) value becomes very small. The WCSS value is the sum of squares of the distance between each data and its group center. The smaller the WCSS value, the better the clustering. However, if the k value is too large, the clustering will be inefficient and uninformative. Therefore, this elbow can help you to choose a k value that suits your data.
 
-![labels cluster](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
-![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
+![labels cluster](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output1.png)
+![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/silhoute.png)
 
 The image is a scatter plot that has four different groups of data. Each group of data is labeled with the numbers 0, 1, 2, or 3. The x and y axes in the figure are pc1 and pc2. Data that belong to the same group have the same color in the figure. Group 0 is pink and is located in the upper left corner. Group 1 is purple and is located in the lower left corner. Group 2 is black and located in the upper right corner. Group 3 is blue and is located in the lower right corner. The data in Group 0 and Group 3 are denser than the data in Group 1 and Group 2. This clustering can be used to group data based on the similarity or distance between the data. Data belonging to the same group have closer pc1 and pc2 values than data belonging to different groups. This clustering can help to find patterns or relationships between data.
 
