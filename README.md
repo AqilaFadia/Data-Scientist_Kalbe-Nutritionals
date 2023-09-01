@@ -1,5 +1,6 @@
-Data Scientist at Kalbe Nutritionals
-This is a Project about my internship at Kalbe Nutritionals as a Data Scientist
+Link Code Here
+Link Presentation here
+Link Video Presentation Here
 
 # Data Scientist Project at Kalbe  Nutritionals
 ## Background Story
@@ -46,8 +47,10 @@ Description:
 - Qty: Number of items purchased
 - Total Amount: Price x Qty
  
-Do exploratory data analysis in Dbeaver queries such as What is the average age of customers when viewed from their marital status? What is the average age of customers when viewed from their gender? Determine the store name with the highest total quantity! Determine the name of the best-selling product with the highest total amount! Query Refresnsi can be seen [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Query.sql)
+Do exploratory data analysis in Dbeaver queries such as What is the average age of customers when viewed from their marital status? What is the average age of customers when viewed from their gender? Determine the store name with the highest total quantity! Determine the name of the best-selling product with the highest total amount! Query Refrensi can be seen [here](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Query.sql)
+
 download Dbaver [here](https://dbeaver.io/)
+
 What is Dbaver can be read [here](https://www.rumahweb.com/journal/dbeaver-adalah/)
 
 ### Dashboard Kalbe Nutritionals
@@ -57,12 +60,14 @@ Through Kalbe Nutritional's sales dashboard visualization in Tableau, it was fou
 
 ## Machine Learning Time Series
 ![Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output.png)
+
 The visualization above shows autocorrelation against various lags in the data. Autocorrelation measures the similarity of the data to itself at different times. The general pattern of autocorrelation is close to zero for most lags, but decreases at lags around 15, indicating a repeating cycle every 15 times. This confirms the stationary nature of the data, with no obvious trends or seasonal patterns.
 
 ![Partial Autocorelation](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/partial.png)
+
 The autocorrelation and partial autocorrelation visualization results show a similar pattern, with an emphasis on the first lag. This pattern indicates a recurring cycle at a lag of about 15 and a direct influence from the previous point at the first lag. The influence from other times is less significant.
 
-![Autual vs Forecast](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Dashboard%20Kalbe%20Nutritionals.png)
+![Actual vs Forecast](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/timeseries.png)
 
 The graph line titled "Actual vs. Forecast" shows the comparison between the actual and forecast values of a variable over time. Based on the graph, the following conclusions can be drawn:
 * The actual value has a larger variation than the forecast value, which means that there are other factors affecting the variable besides trends and seasonality.
@@ -71,12 +76,13 @@ The graph line titled "Actual vs. Forecast" shows the comparison between the act
 
 ## Machine Learning Clustering
 ![Elbow Method](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/elbow.png)
+
 This elbow can be used to determine the optimal number of data groups for clustering. This Elbow shows that the best value of k is 4 because after that the decrease in the within-cluster sum of squares (WCSS) value becomes very small. The WCSS value is the sum of squares of the distance between each data and its group center. The smaller the WCSS value, the better the clustering. However, if the k value is too large, the clustering will be inefficient and uninformative. Therefore, this elbow can help you to choose a k value that suits your data.
 
 ![labels cluster](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/Pic/output1.png)
-![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/silhoute.png)
-
 The image is a scatter plot that has four different groups of data. Each group of data is labeled with the numbers 0, 1, 2, or 3. The x and y axes in the figure are pc1 and pc2. Data that belong to the same group have the same color in the figure. Group 0 is pink and is located in the upper left corner. Group 1 is purple and is located in the lower left corner. Group 2 is black and located in the upper right corner. Group 3 is blue and is located in the lower right corner. The data in Group 0 and Group 3 are denser than the data in Group 1 and Group 2. This clustering can be used to group data based on the similarity or distance between the data. Data belonging to the same group have closer pc1 and pc2 values than data belonging to different groups. This clustering can help to find patterns or relationships between data.
+
+![Silhoutte Analysis](https://github.com/AqilaFadia/Data-Scientist_Kalbe-Nutritionals/blob/main/silhoute.png)
 
 * Cluster 0 (label 0): Customers in this cluster tend to have a purchasing pattern with a moderate number of products (Qty) and a relatively low total expenditure (TotalAmount). The age of customers tends to be around 36 years old. All customers in this cluster are Female (Gender = 0), and the income of customers in this cluster is around 3.70.
 * Cluster 1 (label 1): Customers in this cluster tend to have a purchasing pattern with a lower number of products (Qty), which results in a lower total expenditure (TotalAmount). The age of customers tends to be around 36 years old. All customers in this cluster are Female (Gender = 0), and the income of customers in this cluster is around 10.53.
